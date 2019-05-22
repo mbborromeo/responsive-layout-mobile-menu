@@ -1,0 +1,88 @@
+ h1 {
+    font-family: "Stone Informal ITC W04 Medium", serif;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    color: #004b8d;
+}
+ h2 {
+    font-family: aileronbold, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #004b8d;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #004b8d;
+}
+ h3 {
+    font-family: aileronbold, Helvetica, Arial, sans-serif;
+    font-weight: 400;    
+    color: #084eb2;
+    font-size: 21px;
+    line-height: 1.25;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #084eb2;
+}
+ h4 {
+    font-family: aileronbold, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #004b8d;
+    font-size: 17px;
+    line-height: 1.25;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #004b8d;
+}
+ h5 {
+    font-family: aileronregular, Helvetica, Arial, sans-serif;
+    color: #084eb2;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #084eb2;
+}
+ h6 {
+    font-family: aileronregular, Helvetica, Arial, sans-serif;
+    color: #002b5c;
+    font-size: 15px;
+    line-height: 1.25;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #002b5c;
+}
+
+@media (max-width: #{1200px - 1px}) {
+
+    /* Text Styles */
+    h2, .h2 { 
+    	margin-top: 14px; 
+    }
+    
+    h3, .h3 {
+        margin-top: 13px;
+        font-size: 21px;
+    }
+
+}
+
+
+
+/*  ##### SMALL SIZE ###### */
+ @media (max-width: #{992px - 1px}){
+    .content { font-size: 14px; }
+}
+
+
+
+/*  ##### X-SMALL SIZE ###### */
+ @media (max-width: #{768px - 1px}) {
+    .content { font-size: 14px; }
+}
+
+
+
+
