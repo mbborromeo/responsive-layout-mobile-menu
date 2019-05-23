@@ -16,8 +16,8 @@ body {
 }
 
 /* Icons ************/
+/* icon images from the Noun Project */
 
-/* back (noun_back_1521730.png) by Besticons from the Noun Project */
 #back-to-list {
   background: url('../images/noun_back_1521730.png');
   background-size: contain;
@@ -60,7 +60,7 @@ body {
 #previous {
   background: url('../images/noun_previous_2233703.png');
   background-size: contain;
-  background-position: top 2px left;
+  background-position: top 3px left;
   background-repeat: no-repeat;
   padding-left: 20px;
 }
@@ -74,7 +74,7 @@ body {
 #next {
   background: url('../images/noun_Next_2233701.png');
   background-size: contain;
-  background-position: top 2px right;
+  background-position: top 3px right;
   background-repeat: no-repeat;
   padding-right: 20px;
 }
@@ -90,7 +90,6 @@ body {
 }
 
 /* Layout ************/
-
 .left-align {
   text-align: left;
 }
@@ -123,9 +122,9 @@ body {
 }
 
 #photo-wrapper {
-  position: absolute;
-  top: 50px;
-  right: 50px;
+    position: absolute;
+    top: 25%;
+    right: 67%;
 }
 
 .image-cropper {
@@ -140,11 +139,9 @@ body {
   margin-right: 6px;
   margin-top: 6px;
   */  
-  -webkit-box-shadow: 2px 2px 6px 0.5px #CCC;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    2px 2px 6px 0.5px #CCC;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         2px 2px 6px 0.5px #CCC;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  
-  border: 1px solid red;
+  -webkit-box-shadow: 2px 2px 6px 0.5px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    2px 2px 6px 0.5px #333;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         2px 2px 6px 0.5px #333;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */  
 }
 
 .profile-pic {
@@ -163,6 +160,39 @@ body {
   text-align: left;
 }
 
+
+/* Menu / Navigation *************/
+#sub-menu {
+  background-color: #fafbfc;
+  overflow-y: scroll;
+
+  display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+
+#sub-menu ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+#sub-menu ul li {
+  list-style-type: none;
+  border-top: 1px solid #e5e9f2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+}
+
+#sub-menu ul li:nth-child(2n+1) {
+  background-color: #f6f7fa;
+}
+
+#sub-menu ul li.selected {
+  background-color: #002b5c;
+  color: #FFF;
+}
+
 /* Media Queries ************/
 @media screen and (min-width: 768px) {
   .left-col-width {
@@ -173,7 +203,11 @@ body {
     display: inline-block;
   }
 
+}
+
+@media screen and (max-width: 767px) {
   #photo-wrapper {
-    right: unset;
+    right: 5%;
+    top: 35%;
   }
 }
