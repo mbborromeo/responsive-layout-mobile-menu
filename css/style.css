@@ -1,0 +1,104 @@
+/* Icons ************/
+
+/* back (noun_back_1521730.png) by Besticons from the Noun Project */
+#back-to-list {
+  background: url('../images/noun_back_1521730.png');
+  background-size: contain;
+  background-position: top 2px left;
+  background-repeat: no-repeat;
+  padding-left: 17px;
+}
+#back-to-list a {
+  text-decoration: none;
+}
+#back-to-list a:hover {
+  text-decoration: underline;
+}
+
+#phone {
+  background: url('../images/noun_Phone_2117969.png');
+  background-size: contain;
+  background-position: top 2px left;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+#email {
+  background: url('../images/noun_Email_1569816.png');
+  background-size: contain;
+  background-position: top 2px left;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+#email a {
+  text-decoration: none;
+}
+#email a:hover {
+  text-decoration: underline;
+}
+
+#previous {
+  background: url('../images/noun_previous_2233703.png');
+  background-size: contain;
+  background-position: top 2px left;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+#previous {
+  text-decoration: none;
+}
+#previous:hover {
+  text-decoration: underline;
+}
+
+#next {
+  background: url('../images/noun_Next_2233701.png');
+  background-size: contain;
+  background-position: top 2px right;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+}
+#next {
+  text-decoration: none;
+}
+#next:hover {
+  text-decoration: underline;
+}
+
+/* Layout ************/
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-col-half, .right-col-half {
+  width: 50%;
+  float: left;
+}
+
+.image-cropper {
+  width: 146px;
+  height: 146px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  /*
+  margin-right: 6px;
+  margin-top: 6px;
+  */
+  -webkit-box-shadow: 2px 2px 6px 0.5px #CCC;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    2px 2px 6px 0.5px #CCC;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         2px 2px 6px 0.5px #CCC;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}

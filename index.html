@@ -1,19 +1,162 @@
 <!doctype html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Sonic Healthcare - UI Responsive layout with mobile menu</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sonic Healthcare - UI Responsive layout with mobile menu</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="stylesheet" href="css/fonts.css">
-      <link rel="stylesheet" href="css/typography.css">
-    </head>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <body>
-      <h1>Title goes here</h1>
+<body>
+  <!-- sub-menu height should match height of main-content column, 
+    and have a vertical scrollbar for any remainding menu items -->
+  <div id="sub-menu">
+    <ul>
+      <li>Ahn, Dr Erica</li>
+      <li>Allende, Dr Alexandra</li>
+      <li>Baillie, Dr Tina</li>
+      <li>Banuthevan, Dr Banumathy</li>
+      <li>Baumgart, Dr Karl</li>
+      <li>Bernal, Dr Elizabeth</li>
+      <li>Biro, Dr Claire</li>
+      <li>Blackwell, Dr Jonathan</li>
+      <li class="selected">Bonar, Adjunct Professor Fiona</li>
+      <li>Bradbury, Dr Ross</li>
+      <li>Broadfoot, Dr Andrew</li>
+      <li>Burchett, Dr Ivan</li>
+      <li>Caldwell, Dr Grahame</li>
+      <li>Carr, Dr Susan</li>
+      <li>Chambers, Dr Ian</li>
+      <li>Cheah, Dr Alison</li>
+      <li>Choy, Dr Carolyn</li>
+      <li>Clark, Dr Simon</li>
+      <li>Corbett-Burns, Dr Sophie</li>
+      <li>Crainic, Dr Oana</li>
+      <li>Danieletto, Dr Suzanne</li>
+      <li>Delprado, Adjunct Professor Warick</li>
+      <li>Ding, Dr Joanna</li>
+      <li>D’Souza, Dr Francesca</li>
+      <li>Edwards, Dr Melanie</li>
+      <li>Fairy, Dr Stephen</li>
+      <li>Farnsworth, Adjunct Professor Annabelle</li>
+      <li>Felbel, Dr William</li>
+      <li>Ahn, Dr Erica</li>
+      <li>Allende, Dr Alexandra</li>
+      <li>Baillie, Dr Tina</li>
+      <li>Banuthevan, Dr Banumathy</li>
+      <li>Baumgart, Dr Karl</li>
+      <li>Bernal, Dr Elizabeth</li>
+      <li>Biro, Dr Claire</li>
+      <li>Blackwell, Dr Jonathan</li>
+      <li>Bonar, Adjunct Professor Fiona</li>
+      <li>Bradbury, Dr Ross</li>
+      <li>Broadfoot, Dr Andrew</li>
+      <li>Burchett, Dr Ivan</li>
+      <li>Caldwell, Dr Grahame</li>
+      <li>Carr, Dr Susan</li>
+      <li>Chambers, Dr Ian</li>
+      <li>Cheah, Dr Alison</li>
+      <li>Choy, Dr Carolyn</li>
+      <li>Clark, Dr Simon</li>
+      <li>Corbett-Burns, Dr Sophie</li>
+      <li>Crainic, Dr Oana</li>
+      <li>Danieletto, Dr Suzanne</li>
+      <li>Delprado, Adjunct Professor Warick</li>
+      <li>Ding, Dr Joanna</li>
+      <li>D’Souza, Dr Francesca</li>
+      <li>Edwards, Dr Melanie</li>
+      <li>Fairy, Dr Stephen</li>
+      <li>Farnsworth, Adjunct Professor Annabelle</li>
+      <li>Felbel, Dr William</li>
+    </ul>
+  </div>
 
-      Lorem ipsom...        
-    </body>
+
+  <div id="main-content">  
+    <div id="sub-header">
+      <div id="back-wrapper">
+        <span id="back-to-list"><a href="#">Back to List</a></span>
+      </div>
+
+      <div id="business-card">        
+        <div id="name-title-wrapper" class="right-col-width">
+          <h1>Adjunct Professor Fiona Bonar OAM</h1>
+        </div>
+        <div id="contact-wrapper" class="right-col-width">
+          <span id="phone">(02) 9855 5150</span>
+          <span id="email"><a href="mailto:pathologist@dhm.com.au">pathologist@dhm.com.au</a></span>
+        </div>
+        <div id="qualifications-wrapper" class="right-col-width">
+          MB, BCh, BAO, (Hons), DObs, DCH, MRCPI, FRCPath (Lond), FFOP (RCPA), FRCPA
+        </div>
+
+        <div id="photo-wrapper" class="left-col-width">
+          <div class="image-cropper">
+            <img class="profile-pic" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" title="Photo placeholder sourced from Wikipedia" />
+          </div>          
+        </div>
+      </div>
+    </div>  
+
+    <div id="text-wrapper">
+      <div class="row">
+        <div class="left-col-width align-right">
+          <h3>Speciality</h3>
+        </div>
+        <div class="right-col-width">
+          Histopathology / Cytopathology
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="left-col-width align-right">
+          <h3>Special interests</h3>
+        </div>
+        <div class="right-col-width">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, et sed do eiusmod.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="left-col-width align-right">
+          <h3>Biography</h3>
+        </div>
+        <div class="right-col-width">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+          </p>
+        </div>
+      </div>
+
+      <div class="row border-top-grey">
+        <div class="left-col-half left-align">
+          <a href="#" id="previous">Dr Jonathan Blackwell</a>
+        </div>
+        <div class="right-col-half right-align">
+          <a href="#" id="next">Dr Ross Bradbury</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
 </html>
